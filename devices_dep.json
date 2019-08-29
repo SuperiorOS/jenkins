@@ -53,6 +53,22 @@
          "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X01BD.git",
          "target_path":"vendor/asus/X01BD",
          "branch":"pie"
+    ],
+    "daisy":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy.git",
+         "target_path":"device/xiaomi/daisy",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_daisy.git",
+         "target_path":"kernel/xiaomi/daisy",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_daisy.git",
+         "target_path":"vendor/xiaomi/daisy",
+         "branch":"pie"
       }
    ]
 }

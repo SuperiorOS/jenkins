@@ -75,6 +75,7 @@
          "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X01BD.git",
          "target_path":"vendor/asus/X01BD",
          "branch":"pie"
+      }
     ],
     "daisy":[
       {

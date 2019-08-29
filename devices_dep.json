@@ -16,6 +16,28 @@
          "branch":"pie"
       }
    ],
+   "ef63":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_pantech_ef63",
+         "target_path":"device/pantech/ef63",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_pantech_msm8974-common",
+         "target_path":"device/pantech/msm8974-common",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_pantech_msm8x74",
+         "target_path":"kernel/pantech/msm8x74",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_pantech_ef63",
+         "target_path":"vendor/pantech/ef63",
+         "branch":"pie"
+      }
+   ],
    "whyred":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",

@@ -93,5 +93,22 @@
          "target_path":"vendor/xiaomi/daisy",
          "branch":"pie"
       }
-   ]
+   ],
+   "sanders":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_motorola_sanders.git",
+         "target_path":"kernel/motorola/sanders",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_motorola_sanders.git",
+         "target_path":"vendor/motorola/sanders",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_motorola_sanders.git",
+         "target_path":"device/motorola/sanders",
+         "branch":"pie"
+      }
+    ]
 }

@@ -38,6 +38,28 @@
          "branch":"pie"
       }
    ],
+   "platina":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_platina",
+         "target_path":"device/xiaomi/platina",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_platina",
+         "target_path":"vendor/xiaomi/platina",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_platina",
+         "target_path":"kernel/xiaomi/platina",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/mafurcak/vendor_MiuiCamera",
+         "target_path":"vendor/MiuiCamera",
+         "branch":"pie-platina"
+      }
+   ],
    "whyred":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",

@@ -176,5 +176,27 @@
          "target_path":"vendor/xiaomi/MiuiCamera",
          "branch":"pie"
       }
+    ],
+    "z2_plus":[
+      {
+         "url":"https://github.com/DD3Boh/android_kernel_zuk_msm8996",
+         "target_path":"kernel/zuk/msm8996",
+         "branch":"lineage-16.0"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_zuk_msm8996-common",
+         "target_path":"device/zuk/msm8996-common",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_zuk_z2_plus",
+         "target_path":"device/zuk/z2_plus",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_zuk_z2_plus",
+         "target_path":"vendor/zuk",
+         "branch":"pie"
+      }
     ]
 }

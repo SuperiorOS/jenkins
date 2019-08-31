@@ -116,6 +116,23 @@
          "branch":"pie"
       }
     ],
+    "X00T":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_asus_X00T",
+         "target_path":"device/asus/X00T",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X00T",
+         "target_path":"vendor/asus",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_asus_X00T",
+         "target_path":"kernel/asus/sdm660",
+         "branch":"pie"
+      }
+   ],
     "daisy":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy.git",

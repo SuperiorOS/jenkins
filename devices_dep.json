@@ -194,6 +194,23 @@
          "branch":"pie"
       }
     ],
+    "violet":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_violet.git",
+         "target_path":"device/xiaomi/violet",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_violet.git",
+         "target_path":"vendor/xiaomi/violet",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_violet.git",
+         "target_path":"kernel/xiaomi/sm6150",
+         "branch":"pie"
+      }
+    ],
     "z2_plus":[
       {
          "url":"https://github.com/DD3Boh/android_kernel_zuk_msm8996",

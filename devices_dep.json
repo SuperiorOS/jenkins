@@ -194,6 +194,23 @@
          "branch":"pie"
       }
     ],
+   "tulip":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tulip.git",
+         "target_path":"device/xiaomi/tulip",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_tulip.git",
+         "target_path":"kernel/xiaomi/tulip",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_tulip.git",
+         "target_path":"vendor/xiaomi/tulip",
+         "branch":"pie"
+      }
+    ],       
     "violet":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_violet.git",

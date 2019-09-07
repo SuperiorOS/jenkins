@@ -153,7 +153,7 @@
    "sanders":[
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_motorola_sanders.git",
-         "target_path":"kernel/motorola/sanders",
+         "target_path":"kernel/motorola/msm8953",
          "branch":"pie"
       },
       {

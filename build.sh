@@ -11,9 +11,9 @@
 
 
 function exports() {
-   export PIXYS_BUILD_PATH=/home/subins/superior
-   export PIXYS_BUILD_TYPE=OFFICIAL
-   export KBUILD_BUILD_HOST="PixysBuildBot"
+   export SUPERIOR_BUILD_PATH=/home/subins/superior
+   export SUPERIOR_OFFICIAL=true
+   export KBUILD_BUILD_HOST="BuildBot"
    export DJSON=$(curl -s https://raw.githubusercontent.com/SuperiorOS/official_devices/pie/devices.json)
    export DEVICE_MAINTAINERS=$(jq -r --arg DEVICE "$DEVICE" '.[] | select(.codename==$DEVICE) | .maintainer_name' <<< ${DJSON}) # The maintainer of that device
    if [ -z ${DEVICE_MAINTAINERS} ];
@@ -115,7 +115,7 @@ function build_main() {
     cd /home/subins/superior
     BUILD_START=$(date +"%s")
     source build/envsetup.sh
-    lunch pixys_${DEVICE}-userdebug
+    lunch superior_${DEVICE}-userdebug
     printf "${BICyan}Starting build for ${DEVICE}${Color_Off}"
     TGlogs "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
     sendTG "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
@@ -127,10 +127,10 @@ function build_main() {
    
 	  
 function build_end() {
-   if [ -f /home/subins/superior/out/target/product/$DEVICE/PixysOS*.zip ]
+   if [ -f /home/subins/superior/out/target/product/$DEVICE/SuperiorOS*.zip ]
    then
       cd /home/subins/superior/out/target/product/$DEVICE
-      ZIP=$(ls PixysOS*.zip)
+      ZIP=$(ls SuperiorOS*.zip)
 	  JSON="${DEVICE}.json"
 	  status="passed"
 	  build_json

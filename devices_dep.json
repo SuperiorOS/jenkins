@@ -320,5 +320,37 @@
          "target_path":"vendor/xiaomi",
          "branch":"pie"
       }
+   ],
+      "capricorn":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_capricorn",
+         "target_path":"device/xiaomi/capricorn",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8996-common",
+         "target_path":"device/xiaomi/msm8996-common",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_capricorn",
+         "target_path":"kernel/xiaomi/msm8996",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_capricorn",
+         "target_path":"vendor/xiaomi",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/henmadx/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
+         "target_path":"prebuilts/sd_clang",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/henmadx/aarch64-elf-gcc",
+         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
+         "branch":"9.x"
+      }
    ]
 }

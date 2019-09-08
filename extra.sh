@@ -7,7 +7,7 @@
 # in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 #
 #
-# PixysOS ROM building script.
+# SuperiorOS ROM building script.
 
 
 function build_json() {
@@ -44,7 +44,7 @@ function TGlogs() {
 
 # function to send messages on maintainers group
 function sendTG() {
-    curl -s "https://api.telegram.org/bot${bottoken}/sendmessage" --data "text=${*}&chat_id=-1001239809576&parse_mode=HTML" > /dev/null
+    curl -s "https://api.telegram.org/bot${bottoken}/sendmessage" --data "text=${*}&chat_id=-1001342674978&parse_mode=HTML" > /dev/null
 }
 
 # Additonal function to used in future versions

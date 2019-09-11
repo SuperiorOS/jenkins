@@ -289,6 +289,11 @@
          "branch":"pie"
       },
       {
+         "url":"https://github.com/SuperiorOS-Devices/device_oppo_common",
+         "target_path":"device/oppo/common",
+         "branch":"pie"
+      },
+      {
          "url":"https://github.com/SuperiorOS-Devices/kernel_oneplus_msm8974",
          "target_path":"kernel/oneplus/msm8974",
          "branch":"pie"

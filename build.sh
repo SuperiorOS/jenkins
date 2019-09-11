@@ -94,7 +94,7 @@ function build_init() {
        branch=$(jq -r --argjson i "$i" '.[$i].branch' /home/subins/superior/json/${DEVICE}.json)
        target=$(jq -r --argjson i "$i" '.[$i].target_path' /home/subins/superior/json/${DEVICE}.json)
        printf "\n>>> ${Blue}Cloning to $target...\n${Color_Off}\n"
-       git clone --recurse-submodules --depth=1 --quiet $repo_url -b $branch $target
+       git clone --recurse-submodules --depth=1 $repo_url -b $branch $target
        printf "${Color_Off}"
        if [ -e /home/subins/superior/$target ]
           then

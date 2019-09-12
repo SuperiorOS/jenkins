@@ -308,7 +308,7 @@
       {
          "url":"https://github.com/xiaomi-sdm660/vendor_xiaomi_MiuiCamera",
          "target_path":"vendor/xiaomi/MiuiCamera",
-         "branch":"pie"
+         "branch":"master"
       },
       {
          "url":"https://github.com/Havoc-OS/android_packages_apps_Dirac",

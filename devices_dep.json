@@ -94,6 +94,23 @@
          "branch":"pie-platina"
       }
    ],
+   "rimo02a":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_smartron_rimo02a.git",
+         "target_path":"device/smartron/rimo02a",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_smartron_rimo02a.git",
+         "target_path":"vendor/smartron/rimo02a",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_smartron_msm8976.git",
+         "target_path":"kernel/smartron/msm8976",
+         "branch":"pie"
+      },
+   ],   
    "whyred":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",

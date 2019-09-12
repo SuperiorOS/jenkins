@@ -109,7 +109,7 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_smartron_msm8976.git",
          "target_path":"kernel/smartron/msm8976",
          "branch":"pie"
-      },
+      }
    ],   
    "whyred":[
       {

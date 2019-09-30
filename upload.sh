@@ -20,8 +20,7 @@ then
          sshc "rm -rf /home/ftp/uploads/.superior/${DEVICE}"
          sshc "mkdir -p /home/ftp/uploads/.superior/${DEVICE}"
          scpc "${ZIP}"
-         scpc "${JSON}"
-      echo -e "Test Build Pushed to FTP..."
+         echo -e "Test Build Pushed to FTP..."
 fi
 
 if [ "$command" == "Push to Sourceforge" ];
@@ -32,4 +31,11 @@ then
          cd /home/frs/project/superioros/${DEVICE}
          put Superior*.zip
          echo -e "Build Uploaded succesfully..."
+fi
+if [ "$command" == "Push OTA" ];
+then
+         cd ~
+         wget https://raw.githubusercontent.com/SuperiorOS/official_devices/pie/OTA.sh
+         bash OTA.sh ${DEVICE} superior
+         echo -e "OTA Pushed succesfully..."
 fi

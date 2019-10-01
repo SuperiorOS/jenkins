@@ -387,9 +387,9 @@
          "branch":"pie"
       },
       {
-         "url":"https://github.com/henmadx/aarch64-elf-gcc",
-         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
-         "branch":"9.x"
+         "url":"https://github.com/henmadx/priv-toolchains",
+         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-10.0",
+         "branch":"elf/gcc-10.0.0/arm64"
       }
    ]
 }

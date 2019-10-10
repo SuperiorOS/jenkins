@@ -174,13 +174,18 @@
          "branch":"pie"
       },
       {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy-common.git",
+         "target_path":"device/xiaomi/msm8953-common",
+         "branch":"pie"
+      },
+      {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_daisy.git",
          "target_path":"kernel/xiaomi/daisy",
          "branch":"pie"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_daisy.git",
-         "target_path":"vendor/xiaomi/daisy",
+         "target_path":"vendor/xiaomi",
          "branch":"pie"
       }
    ],

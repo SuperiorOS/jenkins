@@ -426,7 +426,7 @@
          "branch":"pie"
       },
       {
-         "url":"https://github.com/Planet-X/android_kernel_asus_msm8953.git",
+         "url":"https://github.com/zenfone3-dev/android_kernel_asus_msm8953.git",
          "target_path":"kernel/asus/msm8953",
          "branch":"lineage-16.0"
       },

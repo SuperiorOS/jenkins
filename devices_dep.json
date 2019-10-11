@@ -296,19 +296,19 @@
          "branch":"pie"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_sdm660-common",
+         "url":"https://github.com/xiaomi-sdm660/android_device_xiaomi_sdm660-common",
          "target_path":"device/xiaomi/sdm660-common",
-         "branch":"pie"
+         "branch":"havoc"
       },
       {
          "url":"https://github.com/xiaomi-sdm660/android_kernel_xiaomi_clover",
          "target_path":"kernel/xiaomi/clover",
-         "branch":"master"
+         "branch":"kernel.lnx.4.4.r38-rel"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_clover",
+         "url":"https://github.com/xiaomi-sdm660/android_vendor_xiaomi_clover",
          "target_path":"vendor/xiaomi/clover",
-         "branch":"pie"
+         "branch":"master"
       },
       {
          "url":"https://github.com/xiaomi-sdm660/vendor_xiaomi_MiuiCamera",

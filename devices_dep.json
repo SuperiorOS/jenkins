@@ -311,7 +311,7 @@
          "branch":"master"
       },
       {
-         "url":"https://github.com/xiaomi-sdm660/vendor_xiaomi_MiuiCamera",
+         "url":"https://github.com/xiaomi-sdm660/android_vendor_xiaomi_MiuiCamera",
          "target_path":"vendor/xiaomi/MiuiCamera",
          "branch":"master"
       },

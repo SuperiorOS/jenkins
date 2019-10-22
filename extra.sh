@@ -11,11 +11,11 @@
 
 
 function build_json() {
-   timestamp=$(cat system/build.prop | grep ro.pixys.build.date | cut -d'=' -f2)
+   timestamp=$(cat system/build.prop | grep ro.build.date | cut -d'=' -f2)
    name=$(stat -c %n "${ZIP}" | sed 's/.*\///')
    filehash=$(md5sum "${ZIP}" | cut -d " " -f 1)
    size=$(cat "${ZIP}" | wc -c)
-   MAIN_URL="https://downloads.sourceforge.net/project/pixys-os/pie/${DEVICE}/${ZIP}"
+   MAIN_URL="https://downloads.sourceforge.net/project/superioros/${DEVICE}/${ZIP}"
    msg=$(mktemp)
    {
       echo -e "{"

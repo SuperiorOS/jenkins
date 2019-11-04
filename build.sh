@@ -31,15 +31,17 @@ function use_ccache() {
    if [ "$use_ccache" = "true" ];
    then
       printf "CCACHE is enabled for this build"
+      export CCACHE_EXEC=$(which ccache)
       export USE_CCACHE=1
       export CCACHE_DIR=/home/subins/ccache/superior
-      prebuilts/misc/linux-x86/ccache/ccache -M 50G
+      ccache -M 50G
     elif [ "$use_ccache" = "false" ];
     then
+       export CCACHE_EXEC=$(which ccache)
        export CCACHE_DIR=/home/subins/ccache/superior
        ccache -C
        export USE_CCACHE=1
-       prebuilts/misc/linux-x86/ccache/ccache -M 50G
+       ccache -M 50G
        wait
        printf "CCACHE Cleared"
     fi

@@ -35,7 +35,7 @@ fi
 if [ "$command" == "Push OTA" ];
 then
          cd ~
-         wget https://raw.githubusercontent.com/SuperiorOS/official_devices/pie/OTA.sh
+         wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/OTA.sh
          bash OTA.sh ${DEVICE} superior
          echo -e "OTA Pushed succesfully..."
 fi

@@ -23,7 +23,7 @@
    ],
    "beryllium":[
       {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_beryllium"
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_beryllium",
          "target_path":"device/xiaomi/beryllium",
          "branch":"ten"
       },

@@ -59,5 +59,27 @@
          "target_path":"kernel/asus/sdm660",
          "branch":"ten"
       }
+   ],
+    "dipper":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_dipper",
+         "target_path":"device/xiaomi/dipper",
+         "branch":"ten"
+      },
+      {
+         "url":https://github.com/SuperiorOS-Devices/device_xiaomi_dipper-common",
+         "target_path":"device/xiaomi/sdm845-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_dipper",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_dipper",
+         "target_path":"kernel/xiaomi/sdm845",
+         "branch":"ten"
+      }
    ]
 }

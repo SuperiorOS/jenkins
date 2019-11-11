@@ -67,7 +67,7 @@
          "branch":"ten"
       },
       {
-         "url":https://github.com/SuperiorOS-Devices/device_xiaomi_dipper-common",
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_dipper-common",
          "target_path":"device/xiaomi/sdm845-common",
          "branch":"ten"
       },

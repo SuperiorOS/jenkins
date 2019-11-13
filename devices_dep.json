@@ -7,7 +7,7 @@
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred",
-         "target_path":"vendor/xiaomi",
+         "target_path":"vendor/xiaomi/whyred",
          "branch":"ten"
       },
       {

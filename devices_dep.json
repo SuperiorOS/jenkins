@@ -98,5 +98,32 @@
           "target_path":"vendor/motorola/sanders",
           "branch":"ten"
        }
+   ],
+    "tiffany":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_tiffany",
+         "target_path":"kernel/xiaomi/msm8953",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tiffany-common",
+         "target_path":"device/xiaomi/msm8953-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tiffany",
+         "target_path":"device/xiaomi/tiffany",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_tiffany",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/laityts/vendor_xiaomi_MiuiCamera",
+         "target_path":"vendor/xiaomi/MiuiCamera",
+         "branch":"ten"
+      }
    ]
 }

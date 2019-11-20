@@ -125,5 +125,32 @@
          "target_path":"vendor/xiaomi/MiuiCamera",
          "branch":"ten"
       }
+   ],
+    "lavender":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_lavender",
+         "target_path":"kernel/xiaomi/lavender",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_lavender-common",
+         "target_path":"device/xiaomi/sdm660-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_lavender",
+         "target_path":"device/xiaomi/lavender",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_lavender-common",
+         "target_path":"vendor/xiaomi/sdm660-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_lavender",
+         "target_path":"vendor/xiaomi/lavender",
+         "branch":"ten"
+      }   
    ]
 }

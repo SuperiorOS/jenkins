@@ -186,5 +186,22 @@
          "target_path":"kernel/xiaomi/msm8937",
          "branch":"ten"
       }
+    ],
+    "rosy":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_rosy",
+         "target_path":"device/xiaomi/rosy",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_rosy",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_rosy",
+         "target_path":"kernel/xiaomi/msm8953",
+         "branch":"10"
+      }
    ]
 }

@@ -225,5 +225,22 @@
          "target_path":"kernel/xiaomi/msm8953",
          "branch":"ten"
       }
+   ],
+   "violet":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_violet",
+         "target_path":"device/xiaomi/violet",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_violet",
+         "target_path":"vendor/xiaomi/violet",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sm6150",
+         "target_path":"kernel/xiaomi/sm6150",
+         "branch":"ten"
+      }
    ]
 }

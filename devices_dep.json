@@ -113,5 +113,27 @@
          "target_path":"kernel/xiaomi/tulip",
          "branch":"eleven"
       }
+   ],
+   "violet":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_device_xiaomi_violet",
+         "target_path":"device/xiaomi/violet",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_vendor_xiaomi_violet",
+         "target_path":"vendor/xiaomi/violet",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_kernel_xiaomi_sm6150",
+         "target_path":"kernel/xiaomi/sm6150",
+         "branch":"eleven"
+      },
+      {
+   	 "url":"https://github.com/LineageOS/android_hardware_xiaomi",
+	 "target_path":"hardware/xiaomi",
+         "branch":"lineage-18.0"
+      }
    ]
 }

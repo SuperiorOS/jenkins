@@ -181,7 +181,7 @@
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_rosy",
          "target_path":"device/xiaomi/rosy",
-         "branch":"ten"
+         "branch":"ten-test"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_rosy",

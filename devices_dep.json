@@ -145,18 +145,28 @@
    ],
     "lavender":[
       {
-         "url":"https://github.com/nathanjohnfawkes00/kernel",
+         "url":"https://github.com/LavenderHUB/android_kernel_xiaomi_lavender",
          "target_path":"kernel/xiaomi/lavender",
-         "branch":"10"
+         "branch":"ten"
       },
       {
-         "url":"https://github.com/nathanjohnfawkes00/device_xiaomi_lavender-1",
+         "url":"https://github.com/LavenderHUB/android_device_xiaomi_lavender",
          "target_path":"device/xiaomi/lavender",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/nathanjohnfawkes00/vendor_xiaomi_lavender-1",
+         "url":"https://github.com/LavenderHUB/android_vendor_xiaomi_lavender",
          "target_path":"vendor/xiaomi/lavender",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/LavenderHUB/android_device_xiaomi_sdm660-common",
+         "target_path":"device/xiaomi/sdm660-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/LavenderHUB/android_vendor_xiaomi_sdm660-common",
+         "target_path":"vendor/xiaomi/sdm660-common",
          "branch":"ten"
       }
    ],

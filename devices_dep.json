@@ -247,5 +247,22 @@
          "target_path":"packages/apps/GoogleCamera",
          "branch":"ten"
       }
-   ]
+   ],
+   "bacon":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_oneplus_bacon",
+         "target_path":"device/oneplus/bacon",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_oneplus_bacon",
+         "target_path":"vendor/oneplus/",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_oneplus_msm8974",
+         "target_path":"kernel/oneplus/msm8974",
+         "branch":"ten"
+      }
+    ]
 }

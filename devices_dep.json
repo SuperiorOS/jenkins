@@ -189,19 +189,19 @@
     ],
     "rosy":[
       {
-         "url":"https://github.com/Vishalcj17/test",
+         "url":"https://github.com/Vishalcj17/android_device_rosy",
          "target_path":"device/xiaomi/rosy",
-         "branch":"lineage-17.0"
+         "branch":"ten"
       },
       {
-         "url":"https://github.com/Vishalcj17/android_vendor_xiaomi_rosy",
-         "target_path":"vendor/xiaomi/rosy",
-         "branch":"q"
+         "url":"https://github.com/Vishalcj17/android_vendor_rosy",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
       },
       {
-         "url":"https://github.com/baunilla/android_kernel_xiaomi_rosy",
+         "url":"https://github.com/Vishalcj17/android_kernel_rosy",
          "target_path":"kernel/xiaomi/rosy",
-         "branch":"q-318-caf"
+         "branch":"10"
       }
     ],
     "tissot":[

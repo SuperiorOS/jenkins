@@ -17,8 +17,8 @@
       },
       {
          "url":"https://github.com/Sweeto143/vendor_xiaomi_MiuiCamera",
-         "target_path":"vendor/xiaomi/MiuiCamera",
-         "branch":"ten"
+         "target_path":"vendor/MiuiCamera",
+         "branch":"ten-anx"
       }
    ],
    "beryllium":[

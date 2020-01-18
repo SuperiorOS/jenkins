@@ -189,19 +189,19 @@
     ],
     "rosy":[
       {
-         "url":"https://github.com/Vishalcj17/android_device_rosy",
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_rosy",
          "target_path":"device/xiaomi/rosy",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/Vishalcj17/android_vendor_rosy",
-         "target_path":"vendor/xiaomi",
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_rosy",
+         "target_path":"vendor/xiaomi/rosy",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/Vishalcj17/android_kernel_rosy",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_rosy",
          "target_path":"kernel/xiaomi/rosy",
-         "branch":"10"
+         "branch":"ten"
       }
     ],
     "tissot":[

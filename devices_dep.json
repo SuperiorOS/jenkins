@@ -269,5 +269,27 @@
          "target_path":"kernel/oneplus/msm8974",
          "branch":"ten"
       }
+    ],
+   "tulip":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_twolip.git",
+         "target_path":"device/xiaomi/twolip",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_twolip-common.git",
+         "target_path":"device/xiaomi/sdm660-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sdm660.git",
+         "target_path":"kernel/xiaomi/sdm660",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_vendor_xiaomi.git",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      }
     ]
 }

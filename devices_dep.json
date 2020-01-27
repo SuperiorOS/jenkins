@@ -38,9 +38,9 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/GZR-Kernels/Optimus_Drunk_Beryllium",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sdm845",
          "target_path":"kernel/xiaomi/sdm845",
-         "branch":"10.0"
+         "branch":"ten"
       }
   ],
    "X01BD":[

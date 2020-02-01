@@ -251,6 +251,11 @@
          "url":"https://github.com/officialyash007/packages_apps_Playground",
          "target_path":"packages/apps/Playground",
          "branch":"ten"
+      },
+      {
+         "url":"https://gitlab.com/PixelExperience/vendor_xiaomi_violet_firmware",
+         "target_path":"vendor/xiaomi/violet/firmware",
+         "branch":"ten"
       }
    ],
    "bacon":[

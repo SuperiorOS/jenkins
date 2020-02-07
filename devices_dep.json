@@ -233,8 +233,8 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_violet",
-         "target_path":"vendor/xiaomi/violet",
+         "url":"https://github.com/officialyash007/vendor_xiaomi",
+         "target_path":"vendor/xiaomi",
          "branch":"ten"
       },
       {

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
 # Copyright (C) 2019 PixysOS project.
+# Copyright (C) 2019-20 SuperiorOS project.
 #
 # Licensed under the General Public License.
 # This program is free software; you can redistribute it and/or modify
@@ -64,26 +65,13 @@ function scpc() {
   sshpass -p "${spass}" scp -P 5615 -o StrictHostKeyChecking=no "${1}" root@uploads.pixysos.com:/home/ftp/uploads/.superior/"${DEVICE}"
 }
 
-# Function to upload to del.dog
-function deldog() {
-    RESULT=$(curl -sf --data-binary @"${1:--}" https://del.dog/documents) || {
-        echo "ERROR: failed to post document" >&2
-        exit 1
-    }
-    KEY=$(jq -r .key <<< "${RESULT}")
-    DEL_NORM="https://del.dog/${KEY}"
-    DEL_RAW="https://del.dog/raw/${KEY}"
-}
-
 function upload_ftp() {
    msg=$(mktemp)
    if [ "$status" == "passed" ]
    then 
       if [ "$upload" == "true" ]
       then
-         echo "http://downloads.pixysos.com/.superior/${DEVICE}/${ZIP}" > "${msg}"
-         deldog "${msg}"
-	 DL_LINK="${DEL_NORM}"
+         basic="http://downloads.pixysos.com/.superior/${DEVICE}/${ZIP}"
          echo -e "Uploading test artifact ${ZIP}"
          sshc "rm -rf /home/ftp/uploads/.superior/${DEVICE}"
          sshc "mkdir -p /home/ftp/uploads/.superior/${DEVICE}"
@@ -97,7 +85,7 @@ function upload_ftp() {
    	     echo "<b>Build time</b> :- $((DIFF / 60)) minute(s) and $((DIFF % 60)) seconds"
    	     echo
    	     echo "<b>Status</b> :- Passed ✅"
-   	     echo "⬇️ <a href=\"${DL_LINK}\">Download</a>"
+   	     echo "⬇️ <a href=\"${basic}\">Download</a>"
 	  } > "${msg}"
        elif [ "$upload" == "false" ]
        then

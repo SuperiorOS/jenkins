@@ -296,5 +296,27 @@
          "target_path":"vendor/xiaomi",
          "branch":"ten"
       }
-    ]
+    ],
+   "capricorn":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_capricorn",
+         "target_path":"device/xiaomi/capricorn",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8996-common",
+         "target_path":"device/xiaomi/msm8996-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_capricorn",
+         "target_path":"kernel/xiaomi/msm8996",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/henmadx/aarch64-elf-gcc",
+         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
+         "branch":"9.x"
+      }
+   ]
 }

@@ -314,6 +314,11 @@
          "branch":"ten"
       },
       {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_capricorn",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
          "url":"https://github.com/henmadx/aarch64-elf-gcc",
          "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
          "branch":"9.x"

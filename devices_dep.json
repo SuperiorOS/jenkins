@@ -340,5 +340,22 @@
          "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
          "branch":"9.x"
       }
+   ],
+      "mido":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_mido",
+         "target_path":"device/xiaomi/mido",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_mido",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_mido",
+         "target_path":"kernel/xiaomi/mido",
+         "branch":"ten"
+      }
    ]
 }

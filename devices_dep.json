@@ -257,6 +257,23 @@
          "target_path":"vendor/xiaomi/violet/firmware",
          "branch":"ten"
       }
+    ],
+    "santoni":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_santoni",
+         "target_path":"device/xiaomi/santoni",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_santoni",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_santoni",
+         "target_path":"kernel/xiaomi/msm8937",
+         "branch":"ten"
+      }
    ],
    "bacon":[
       {

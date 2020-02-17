@@ -41,6 +41,11 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sdm845",
          "target_path":"kernel/xiaomi/sdm845",
          "branch":"ten"
+      },
+      {
+         "url":"https://gitlab.com/saikiran2001/vendor_xiaomi_beryllium_firmware",
+         "target_path":"vendor/xiaomi/beryllium/firmware",
+         "branch":"ten"
       }
   ],
    "X01BD":[

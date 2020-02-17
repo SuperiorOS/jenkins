@@ -292,7 +292,7 @@
          "branch":"ten"
       }
     ],
-   "tulip":[
+   "twolip":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_twolip.git",
          "target_path":"device/xiaomi/twolip",

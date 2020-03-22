@@ -43,7 +43,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://gitlab.com/saikiran2001/vendor_xiaomi_beryllium_firmware",
+         "url":"https://gitlab.com/ninadpatilbvp/vendor_xiaomi_beryllium_firmware",
          "target_path":"vendor/xiaomi/beryllium/firmware",
          "branch":"ten"
       }

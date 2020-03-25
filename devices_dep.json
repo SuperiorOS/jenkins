@@ -341,6 +341,11 @@
          "branch":"ten"
       },
       {
+         "url":"https://github.com/henmadx/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
+         "target_path":"prebuilts/sd_clang",
+         "branch":"quartz"
+      },
+      {
          "url":"https://github.com/henmadx/aarch64-elf-gcc",
          "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.2",
          "branch":"9.x"

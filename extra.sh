@@ -26,9 +26,9 @@ function build_json() {
       echo -e "      \x22filename\x22: \x22${name}\x22,"
       echo -e "      \x22id\x22: \x22${filehash}\x22,"
       echo -e "      \x22size\x22: ${size},"
-      echo -e "      \x22romtype\x22: \x22official\x22,"
+      echo -e "      \x22romtype\x22: \x22OFFICIAL\x22,"
       echo -e "      \x22url\x22: \x22${MAIN_URL}\x22,"
-      echo -e "      \x22version\x22: \x22v2.4\x22"
+      echo -e "      \x22version\x22: \x22Phoenix\x22"
       echo -e "    }"
       echo -e "  ]"
       echo -e "}"
@@ -60,7 +60,7 @@ function sshc() {
 
 #function to make scp upload
 function scpc() {
-  scp -P 5615 -o StrictHostKeyChecking=no "${1}" ftp@uploads.pixysos.com:/home/ftp/uploads/.test/"${DEVICE}"/"${FTP_FOLDER}"
+  scp -P 5615 -o StrictHostKeyChecking=no "${1}" ftp@uploads.pixysos.com:/home/ftp/uploads/.superior/"${DEVICE}"
 }
 
 function upload_ftp() {

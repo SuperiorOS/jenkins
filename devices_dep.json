@@ -297,14 +297,14 @@
          "branch":"ten"
       }
     ],
-   "twolip":[
+   "tulip":[
       {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_twolip.git",
-         "target_path":"device/xiaomi/twolip",
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tulip.git",
+         "target_path":"device/xiaomi/tulip",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_twolip-common.git",
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_sdm660-common_tulip.git",
          "target_path":"device/xiaomi/sdm660-common",
          "branch":"ten"
       },

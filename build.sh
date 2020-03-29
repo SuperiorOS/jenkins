@@ -12,7 +12,6 @@
 
 function exports() {
    export SUPERIOR_BUILD_PATH=/home/subins/superior
-   export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
    export SUPERIOR_OFFICIAL=true
    export KBUILD_BUILD_USER="sweeto"
    export KBUILD_BUILD_HOST="yui"

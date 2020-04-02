@@ -389,5 +389,27 @@
          "target_path":"kernel/motorola/msm8998",
          "branch":"ten"
        }
+   ],
+      "daisy":[
+      {
+          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy",
+         "target_path":"device/xiaomi/daisy",
+         "branch":"ten"
+      },
+      {
+          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy-common",
+         "target_path":"device/xiaomi/msm8953-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_daisy",
+         "target_path":"vendor/xiaomi/daisy",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_daisy",
+         "target_path":"kernel/xiaomi/daisy",
+         "branch":"ten"
+       }
     ]
  }

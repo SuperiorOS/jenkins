@@ -61,7 +61,7 @@ function clean_up() {
    # Clean old device dependencies
    if [ "$clean_device" = "true" ];
    then
-      if [ -e /home/subins/source/clone_path.txt ];
+      if [ -e /home/superior/source/clone_path.txt ];
       then
          clone_path=$(cat /home/superior/source/clone_path.txt)
          if [ -z ${clone_path} ];
@@ -115,7 +115,7 @@ function build_init() {
 }
 
 function build_main() {
-    cd /home/subins/superior
+    cd /home/superior/source
     BUILD_START=$(date +"%s")
     source build/envsetup.sh
     lunch superior_${DEVICE}-userdebug

@@ -388,6 +388,16 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_motorola_payton.git",
          "target_path":"kernel/motorola/msm8998",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/trpsl/packages_apps_MotoCamera2",
+         "target_path":"packages/apps/MotoCamera2",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS/android_packages_resources_devicesettings",
+         "target_path":"packages/resources/devicesettings",
+         "branch":"pie"
        }
    ],
       "daisy":[

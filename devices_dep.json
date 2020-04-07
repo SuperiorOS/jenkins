@@ -326,7 +326,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_capricorn",
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_msm8996",
          "target_path":"vendor/xiaomi",
          "branch":"ten"
       },

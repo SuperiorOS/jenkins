@@ -321,7 +321,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_capricorn",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8996",
          "target_path":"kernel/xiaomi/msm8996",
          "branch":"ten"
       },
@@ -419,7 +419,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_capricorn",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8996",
          "target_path":"kernel/xiaomi/msm8996",
          "branch":"ten"
       },

@@ -383,11 +383,6 @@
          "url":"https://github.com/trpsl/packages_apps_MotoCamera2",
          "target_path":"packages/apps/MotoCamera2",
          "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS/android_packages_resources_devicesettings",
-         "target_path":"packages/resources/devicesettings",
-         "branch":"pie"
        }
    ],
       "daisy":[

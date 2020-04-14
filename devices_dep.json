@@ -438,5 +438,27 @@
          "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.3",
          "branch":"master"
       }
+   ],
+      "vince":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_vince",
+         "target_path":"device/xiaomi/vince",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_vince-common",
+         "target_path":"device/xiaomi/msm8953-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_vince",
+         "target_path":"vendor/xiaomi/vince",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_vince",
+         "target_path":"kernel/xiaomi/vince",
+         "branch":"ten"
+      }
    ]
  }

@@ -192,6 +192,23 @@
          "branch":"ten"
       }
     ],
+    "riva":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_riva",
+         "target_path":"device/xiaomi/riva",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_riva",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_riva",
+         "target_path":"kernel/xiaomi/msm8917",
+         "branch":"ten"
+      }
+    ],
     "rosy":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_rosy",

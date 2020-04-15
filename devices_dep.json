@@ -248,9 +248,9 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/officialyash007/packages_apps_GoogleCamera_violet",
-         "target_path":"packages/apps/GoogleCamera",
-         "branch":"ten"
+         "url":"https://github.com/officialyash007/vendor_MiuiCamera",
+         "target_path":"vendor/MiuiCamera",
+         "branch":"master"
       }
     ],
     "santoni":[

@@ -41,7 +41,7 @@ function use_ccache() {
        export CCACHE_DIR=/home/superior/ccache
        ccache -C
        export USE_CCACHE=1
-       ccache -M 75G
+       ccache -M 50G
        wait
        printf "CCACHE Cleared"
     fi
@@ -122,7 +122,7 @@ function build_main() {
     printf "${BICyan}Starting build for ${DEVICE}${Color_Off}"
     TGlogs "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
     sendTG "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
-    make bacon -j12
+    make bacon -j24
     BUILD_END=$(date +"%s")
     BUILD_TIME=$(date +"%Y%m%d-%T")
     DIFF=$((BUILD_END - BUILD_START))

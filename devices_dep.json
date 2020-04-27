@@ -52,17 +52,17 @@
       {
          "url":"https://github.com/SuperiorOS-Devices/device_asus_X01BD",
          "target_path":"device/asus/X01BD",
-         "branch":"ten"
+         "branch":"difr"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X01BD",
          "target_path":"vendor/asus/X01BD",
-         "branch":"ten"
+         "branch":"difr"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_asus_X01BD",
          "target_path":"kernel/asus/sdm660",
-         "branch":"ten"
+         "branch":"difr"
       }
    ],
     "X00T":[

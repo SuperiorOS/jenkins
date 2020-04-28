@@ -513,6 +513,11 @@
          "url":"https://github.com/SuperiorOS-Devices/android_hardware_samsung",
          "target_path":"hardware/samsung",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_qcom-common",
+         "target_path":"device/samsung/qcom-common",
+         "branch":"ten"
       }
    ],
    	  "hltechn":[
@@ -544,6 +549,11 @@
 	    {
          "url":"https://github.com/SuperiorOS-Devices/android_hardware_samsung",
          "target_path":"hardware/samsung",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_qcom-common",
+         "target_path":"device/samsung/qcom-common",
          "branch":"ten"
       }
    ],
@@ -577,6 +587,11 @@
          "url":"https://github.com/SuperiorOS-Devices/android_hardware_samsung",
          "target_path":"hardware/samsung",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_qcom-common",
+         "target_path":"device/samsung/qcom-common",
+         "branch":"ten"
       }
    ],
     	"hltetmo":[
@@ -608,6 +623,11 @@
 	  {
          "url":"https://github.com/SuperiorOS-Devices/android_hardware_samsung",
          "target_path":"hardware/samsung",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_qcom-common",
+         "target_path":"device/samsung/qcom-common",
          "branch":"ten"
       }
    ]

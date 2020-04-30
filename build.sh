@@ -11,7 +11,7 @@
 
 
 function exports() {
-   export SUPERIOR_BUILD_PATH=/home/superior/source
+   export SUPERIOR_BUILD_PATH=/home/subins/superior/
    export SUPERIOR_OFFICIAL=true
    export KBUILD_BUILD_USER="sweeto"
    export KBUILD_BUILD_HOST="yui"
@@ -33,12 +33,12 @@ function use_ccache() {
       printf "CCACHE is enabled for this build"
       export CCACHE_EXEC=$(which ccache)
       export USE_CCACHE=1
-      export CCACHE_DIR=/home/superior/ccache
+      export CCACHE_DIR=/home/subins/superior/ccache
       ccache -M 75G
     elif [ "$use_ccache" = "false" ];
     then
        export CCACHE_EXEC=$(which ccache)
-       export CCACHE_DIR=/home/superior/ccache
+       export CCACHE_DIR=/home/subins/superior/ccache
        ccache -C
        export USE_CCACHE=1
        ccache -M 50G
@@ -61,48 +61,48 @@ function clean_up() {
    # Clean old device dependencies
    if [ "$clean_device" = "true" ];
    then
-      if [ -e /home/superior/source/clone_path.txt ];
+      if [ -e /home/subins/superior/clone_path.txt ];
       then
-         clone_path=$(cat /home/superior/source/clone_path.txt)
+         clone_path=$(cat /home/subins/superior/clone_path.txt)
          if [ -z ${clone_path} ];
          then
             echo "clone_path.txt is empty so nothing to wipe"
          else
-            for WORD in `cat /home/superior/source/clone_path.txt`
+            for WORD in `cat /home/subins/superior/clone_path.txt`
             do
-              printf "${Blue}Deleting obsolete path /home/superior/source/${WORD}\n${Color_Off}"
+              printf "${Blue}Deleting obsolete path /home/subins/superior/${WORD}\n${Color_Off}"
               rm -rf $WORD
             done
-            rm -rf /home/superior/source/clone_path.txt
-            touch /home/superior/source/clone_path.txt
+            rm -rf /home/subins/superior/clone_path.txt
+            touch /home/subins/superior/clone_path.txt
          fi
     else
         echo "clone_path.txt doesnt exist"
-        touch /home/superior/source/clone_path.txt
+        touch /home/subins/superior/clone_path.txt
     fi
     build_init
    fi
 }
 
 function build_init() {
-    rm -rf /home/superior/source/json/"${DEVICE}".json
-    rm -rf /home/superior/source/devices_dep.json
-    wget -O /home/superior/source/devices_dep.json -q https://raw.githubusercontent.com/SuperiorOS/jenkins/master/devices_dep.json
-    jq --arg DEVICE "$DEVICE" '. | .[$DEVICE]' /home/superior/source/devices_dep.json > /home/superior/source/json/"${DEVICE}".json
-    export dep_count=$(jq length /home/superior/source/json/${DEVICE}.json)
+    rm -rf /home/subins/superior/json/"${DEVICE}".json
+    rm -rf /home/subins/superior/devices_dep.json
+    wget -O /home/subins/superior/devices_dep.json -q https://raw.githubusercontent.com/SuperiorOS/jenkins/master/devices_dep.json
+    jq --arg DEVICE "$DEVICE" '. | .[$DEVICE]' /home/subins/superior/devices_dep.json > /home/superior/source/json/"${DEVICE}".json
+    export dep_count=$(jq length /home/subins/superior/json/${DEVICE}.json)
     printf "\n${UYellow}Cloning device specific dependencies \n\n${Color_Off}"
     for ((i=0;i<${dep_count};i++));
     do
-       repo_url=$(jq -r --argjson i "$i" '.[$i].url' /home/superior/source/json/${DEVICE}.json)
-       branch=$(jq -r --argjson i "$i" '.[$i].branch' /home/superior/source/json/${DEVICE}.json)
-       target=$(jq -r --argjson i "$i" '.[$i].target_path' /home/superior/source/json/${DEVICE}.json)
+       repo_url=$(jq -r --argjson i "$i" '.[$i].url' /home/subins/superior/json/${DEVICE}.json)
+       branch=$(jq -r --argjson i "$i" '.[$i].branch' /home/subins/superior/json/${DEVICE}.json)
+       target=$(jq -r --argjson i "$i" '.[$i].target_path' /home/subins/superior/json/${DEVICE}.json)
        printf "\n>>> ${Blue}Cloning to $target...\n${Color_Off}\n"
        git clone --recurse-submodules --depth=1 $repo_url -b $branch $target
        printf "${Color_Off}"
-       if [ -e /home/superior/source/$target ]
+       if [ -e /home/subins/superior/$target ]
           then
              printf "\n${Green}Repo clone success...\n${Color_Off}"
-             echo "$target" >> /home/superior/source/clone_path.txt
+             echo "$target" >> /home/subins/superior/clone_path.txt
            else
              sendTG "Could not clone some dependecies for [$DEVICE]($BUILD_URL) (SuperiorOS)"
 	         TGlogs "Could not clone some dependecies for [$DEVICE]($BUILD_URL) (SuperiorOS)"
@@ -115,7 +115,7 @@ function build_init() {
 }
 
 function build_main() {
-    cd /home/superior/source
+    cd /home/subins/superior
     BUILD_START=$(date +"%s")
     source build/envsetup.sh
     lunch superior_${DEVICE}-userdebug
@@ -130,9 +130,9 @@ function build_main() {
    
 	  
 function build_end() {
-   if [ -f /home/superior/source/out/target/product/$DEVICE/SuperiorOS*.zip ]
+   if [ -f /home/subins/superior/out/target/product/$DEVICE/SuperiorOS*.zip ]
    then
-      cd /home/superior/source/out/target/product/$DEVICE
+      cd /home/subins/superior/out/target/product/$DEVICE
       ZIP=$(ls SuperiorOS*.zip)
 	  JSON="${DEVICE}.json"
 	  status="passed"
@@ -146,8 +146,8 @@ function build_end() {
    fi
 }
 
-wget -O /home/superior/source/extra.sh https://raw.githubusercontent.com/SuperiorOS/jenkins/master/extra.sh
-source /home/superior/source/extra.sh
+wget -O /home/subins/superior/extra.sh https://raw.githubusercontent.com/SuperiorOS/jenkins/master/extra.sh
+source /home/subins/superior/extra.sh
 DEVICE="$1" # Enter the codename of the device
 use_ccache="$2" # Ccache time
 clean_device="$3" # if the device is different from last one

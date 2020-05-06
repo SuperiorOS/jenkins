@@ -88,7 +88,7 @@ function build_init() {
     rm -rf /home/subins/superior/json/"${DEVICE}".json
     rm -rf /home/subins/superior/devices_dep.json
     wget -O /home/subins/superior/devices_dep.json -q https://raw.githubusercontent.com/SuperiorOS/jenkins/master/devices_dep.json
-    jq --arg DEVICE "$DEVICE" '. | .[$DEVICE]' /home/subins/superior/devices_dep.json > /home/superior/source/json/"${DEVICE}".json
+    jq --arg DEVICE "$DEVICE" '. | .[$DEVICE]' /home/subins/superior/devices_dep.json > /home/subins/superior/json/"${DEVICE}".json
     export dep_count=$(jq length /home/subins/superior/json/${DEVICE}.json)
     printf "\n${UYellow}Cloning device specific dependencies \n\n${Color_Off}"
     for ((i=0;i<${dep_count};i++));

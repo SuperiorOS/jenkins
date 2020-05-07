@@ -662,5 +662,28 @@
          "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.3",
          "branch":"master"
       }
+    ],
+       "z2_plus":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_zuk_msm8996",
+         "target_path":"kernel/zuk/msm8996",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_zuk_msm8996-common",
+         "target_path":"device/zuk/msm8996-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_zuk_z2_plus",
+         "target_path":"device/zuk/z2_plus",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_zuk_z2_plus",
+         "target_path":"vendor/zuk",
+         "branch":"ten"
+      }
     ]
+
  }

@@ -265,8 +265,8 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/officialyash007/vendor_MiuiCamera",
-         "target_path":"vendor/MiuiCamera",
+         "url":"https://github.com/officialyash007/vendor_ANXCamera",
+         "target_path":"vendor/ANXCamera",
          "branch":"master"
       }
     ],

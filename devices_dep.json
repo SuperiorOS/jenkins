@@ -582,7 +582,7 @@
          "url":"https://github.com/SuperiorOS-Devices/android_kernel_samsung_msm8974",
          "target_path":"kernel/samsung/msm8974",
          "branch":"ten"
-      }
+      },
 	   {
          "url":"https://github.com/SuperiorOS-Devices/android_hardware_samsung",
          "target_path":"hardware/samsung",

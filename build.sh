@@ -11,7 +11,7 @@
 
 
 function exports() {
-   export SUPERIOR_BUILD_PATH=/home/subins/superior/
+   export SUPERIOR_BUILD_PATH=/home/subins/superior
    export SUPERIOR_OFFICIAL=true
    export KBUILD_BUILD_USER="sweeto"
    export KBUILD_BUILD_HOST="yui"
@@ -34,7 +34,7 @@ function use_ccache() {
       export CCACHE_EXEC=$(which ccache)
       export USE_CCACHE=1
       export CCACHE_DIR=/home/subins/superior/ccache
-      ccache -M 75G
+      ccache -M 50G
     elif [ "$use_ccache" = "false" ];
     then
        export CCACHE_EXEC=$(which ccache)

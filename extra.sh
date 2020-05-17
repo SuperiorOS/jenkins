@@ -55,12 +55,12 @@ function TG() {
 
 #function to connect to ssh 
 function sshc() {
-  ssh -p 5615 -o StrictHostKeyChecking=no ftp@uploads.pixysos.com "${1}"
+  ssh -p 5615 -o StrictHostKeyChecking=no ftp@uploads.superioros.org "${1}"
 }
 
 #function to make scp upload
 function scpc() {
-  scp -P 5615 -o StrictHostKeyChecking=no "${1}" ftp@uploads.pixysos.com:/home/ftp/uploads/.superior/"${DEVICE}"
+  scp -P 5615 -o StrictHostKeyChecking=no "${1}" ftp@uploads.superioros.org:/home/ftp/uploads/.superior/"${DEVICE}"
 }
 
 function upload_ftp() {
@@ -69,7 +69,7 @@ function upload_ftp() {
    then 
       if [ "$upload" == "true" ]
       then
-         basic="http://downloads.pixysos.com/.superior/${DEVICE}/${ZIP}"
+         basic="http://downloads.superioros.org/.superior/${DEVICE}/${ZIP}"
          echo -e "Uploading test artifact ${ZIP}"
          sshc "rm -rf /home/ftp/uploads/.superior/${DEVICE}"
          sshc "mkdir -p /home/ftp/uploads/.superior/${DEVICE}"

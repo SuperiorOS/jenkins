@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-# Copyright (C) 2019 PixysOS project.
+# Copyright (C) 2019-2020 Pixys OS project.
+# Copyright (C) 2019-2020 Superior OS project.
 #
 # Licensed under the General Public License.
 # This program is free software; you can redistribute it and/or modify

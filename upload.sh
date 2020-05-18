@@ -1,41 +1,30 @@
 #!/usr/bin/env bash
 #
-# Copyright (C) 2019 SuperiorOS project.
+# Copyright (C) 2019-2020 SuperiorOS project.
 #
 # Licensed under the General Public License.
 # This program is free software; you can redistribute it and/or modify
 # in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 #
 #
-# SuperiorOS ROM Uploading Script.
 
-command="$1"
+DEVICE=${1}
+FILENAME=${2}
 
-if [ "$command" == "Push to FTP" ];
-then
-         echo "http://downloads.pixysos.com/.superior/${DEVICE}/${ZIP}" > "${msg}"
-         deldog "${msg}"
-	 DL_LINK="${DEL_NORM}"
-         echo -e "Uploading test build ${ZIP}"
-         sshc "rm -rf /home/ftp/uploads/.superior/${DEVICE}"
-         sshc "mkdir -p /home/ftp/uploads/.superior/${DEVICE}"
-         scpc "${ZIP}"
-         echo -e "Test Build Pushed to FTP..."
-fi
+export spass bottoken
 
-if [ "$command" == "Push to Sourceforge" ];
-then
-         cd ~
-         cd superior/out/target/product/${DEVICE}
-         sftp darkstar085@frs.sourceforge.net
-         cd /home/frs/project/superioros/${DEVICE}
-         put Superior*.zip
-         echo -e "Build Uploaded succesfully..."
-fi
-if [ "$command" == "Push OTA" ];
-then
-         cd ~
-         wget https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/OTA.sh
-         bash OTA.sh ${DEVICE} superior
-         echo -e "OTA Pushed succesfully..."
-fi
+function TG() {
+    curl -s "https://api.telegram.org/bot${bottoken}/sendmessage" --data "text=${*}&chat_id=-1001342674978&parse_mode=HTML" > /dev/null
+}
+
+function mirror() {
+   echo "$FILENAME"
+   cp /home/ftp/uploads/.superior/"${DEVICE}"/"${FILENAME}" /home/ftp/ft-uploads/
+   CHECK=$(ls SuperiorOS*.zip)
+   [ "${CHECK}" == "${FILENAME}" ] && echo "${FILENAME} found, Starting upload process" || TG "$FILENAME cannot be downloaded correctly"
+   sshpass -p "${spass}" scp -o StrictHostKeyChecking=no "${FILENAME}" darkstar085@frs.sourceforge.net:/home/frs/project/superioros/"${DEVICE}"/
+   TG "${FILENAME} has been uploaded to <a href=\"https://downloads.sourceforge.net/project/superioros/${DEVICE}/${FILENAME}\">Sourceforge</a>"
+   rm -rf *.zip
+}
+
+mirror

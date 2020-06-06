@@ -468,11 +468,6 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sm6150",
          "target_path":"kernel/xiaomi/sm6150",
          "branch":"ten"
-      },
-      {
-         "url":"https://github.com/officialyash007/vendor_ANXCamera",
-         "target_path":"vendor/ANXCamera",
-         "branch":"master"
       }
     ],
    "X01BD":[

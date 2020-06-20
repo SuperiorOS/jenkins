@@ -53,6 +53,28 @@
          "branch":"master"
       }
     ],
+   "ef63":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_pantech_ef63",
+         "target_path":"device/pantech/ef63",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_pantech_ef63",
+         "target_path":"vendor/pantech/ef63",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_pantech_msm8974-common ",
+         "target_path":"device/pantech/msm8974-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_pantech_msm8x74",
+         "target_path":"kernel/pantech/msm8x74",
+         "branch":"ten"
+      }
+    ],
    "gemini":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_gemini",

@@ -541,11 +541,6 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_whyred",
          "target_path":"kernel/xiaomi/whyred",
          "branch":"ten"
-      },
-      {
-         "url":"https://github.com/Sweeto143/vendor_xiaomi_MiuiCamera",
-         "target_path":"vendor/xiaomi/MiuiCamera",
-         "branch":"ten"
       }
     ],
    "z2_plus":[

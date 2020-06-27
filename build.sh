@@ -121,15 +121,14 @@ function build_main() {
     source build/envsetup.sh
     lunch superior_${DEVICE}-userdebug
     printf "${BICyan}Starting build for ${DEVICE}${Color_Off}"
-    TGlogs "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
-    sendTG "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a> on ${NODE_NAME} (SuperiorOS)"
+    TGlogs "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a>"
+    sendTG "Starting build for <a href=\"${BUILD_URL}\">${DEVICE}</a>"
     make bacon -j24
     BUILD_END=$(date +"%s")
     BUILD_TIME=$(date +"%Y%m%d-%T")
     DIFF=$((BUILD_END - BUILD_START))
 }
-   
-	  
+
 function build_end() {
    if [ -f /home/subins/superior/out/target/product/$DEVICE/SuperiorOS*.zip ]
    then
@@ -152,7 +151,7 @@ source /home/subins/superior/extra.sh
 DEVICE="$1" # Enter the codename of the device
 use_ccache="$2" # Ccache time
 clean_device="$3" # if the device is different from last one
-make_clean="$4" # make a clean build or not 
+make_clean="$4" # make a clean build or not
 upload="$5"
 
 exports

@@ -33,7 +33,7 @@ function build_json() {
       echo -e "  ]"
       echo -e "}"
    } > "${msg}"
-   
+
    BJSON=$(cat "${msg}")
    echo "${BJSON}" > "${JSON}"
 }
@@ -53,7 +53,7 @@ function TG() {
     curl -s "https://api.telegram.org/bot${bottoken}/sendmessage" --data "text=${*}&chat_id=${chat_id}&parse_mode=Markdown" > /dev/null
 }
 
-#function to connect to ssh 
+#function to connect to ssh
 function sshc() {
   ssh -p 5615 -o StrictHostKeyChecking=no ftp@uploads.superioros.org "${1}"
 }
@@ -66,7 +66,7 @@ function scpc() {
 function upload_ftp() {
    msg=$(mktemp)
    if [ "$status" == "passed" ]
-   then 
+   then
       if [ "$upload" == "true" ]
       then
          basic="http://downloads.superioros.org/.superior/${DEVICE}/${ZIP}"
@@ -77,7 +77,7 @@ function upload_ftp() {
          scpc "${JSON}"
 	 {
 	     echo "🏷 <b>Build Completed</b>"
-   	     echo 
+   	     echo
    	     echo "<b>Device</b> :- #${DEVICE}"
    	     echo "<b>Build URL</b> :- <a href=\"${BUILD_URL}console\">LINK</a>"
    	     echo "<b>Build time</b> :- $((DIFF / 60)) minute(s) and $((DIFF % 60)) seconds"
@@ -101,7 +101,7 @@ function upload_ftp() {
     then
  	  {
 	     echo "🏷 <b>Build Completed</b>"
-   	     echo 
+   	     echo
    	     echo "<b>Device</b> :- #${DEVICE}"
    	     echo "<b>Build URL</b> :- <a href=\"${BUILD_URL}console\">LINK</a>"
    	     echo "<b>Build time</b> :- $((DIFF / 60)) minute(s) and $((DIFF % 60)) seconds"
@@ -110,7 +110,7 @@ function upload_ftp() {
 	     echo -e "${DEVICE_MAINTAINERS} fix the error."
 	  } > "${msg}"
    fi
-   
+
    MESSAGE=$(cat "${msg}")
    TGlogs "$MESSAGE"
    sendTG "$MESSAGE"

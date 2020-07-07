@@ -375,6 +375,23 @@
          "branch":"ten"
       }
     ],
+   "RMX1921":[
+       {
+         "url":https://github.com/SuperiorOS-devices/device_realme_RMX1921",
+         "target_path":"device/realme/RMX1921",
+         "branch":"ten"
+       },
+       {
+         "url":https://github.com/SuperiorOS-devices/vendor_realme_RMX1921",
+         "target_path":"vendor/realme/RMX1921",
+         "branch":"ten"
+       },
+       {
+         "url":https://github.com/SuperiorOS-devices/kernel_realme_RMX1921",
+         "target_path":"kernel/realme/RMX1921",
+         "branch":"ten"
+       }
+    ],
    "sanders":[
        {
           "url":"https://github.com/SuperiorOS-Devices/device_motorola_sanders",

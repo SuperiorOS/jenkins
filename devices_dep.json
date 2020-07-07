@@ -358,6 +358,18 @@
          "branch":"ten"
        }
     ],
+   "raphael":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_raphael",
+         "target_path":"device/xiaomi/raphael",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_raphael",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      }
+    ],
    "riva":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_riva",

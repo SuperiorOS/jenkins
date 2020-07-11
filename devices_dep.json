@@ -489,9 +489,9 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/android_vendor_xiaomi",
-         "target_path":"vendor/xiaomi",
-         "branch":"ten-violet"
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_violet",
+         "target_path":"vendor/xiaomi/violet",
+         "branch":"ten"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sm6150",

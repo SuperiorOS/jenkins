@@ -533,6 +533,23 @@
          "branch":"ten"
       }
     ],
+   "x2":[
+       {
+         "url":"https://github.com/SuperiorOS-devices/device_realme_x2",
+         "target_path":"device/realme/x2",
+         "branch":"ten"
+       },
+       {
+         "url":"https://github.com/SuperiorOS-devices/vendor_realme_x2",
+         "target_path":"vendor/realme/x2",
+         "branch":"ten"
+       },
+       {
+         "url":"https://github.com/SuperiorOS-devices/kernel_realme_x2",
+         "target_path":"kernel/realme/sm6150",
+         "branch":"ten"
+       }
+    ],
    "whyred":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",

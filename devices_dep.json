@@ -258,7 +258,7 @@
    "lavender":[
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_lavender",
-         "target_path":"kernel/xiaomi/lavender",
+         "target_path":"kernel/xiaomi/sdm660",
          "branch":"ten"
       },
       {

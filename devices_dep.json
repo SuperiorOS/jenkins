@@ -255,6 +255,38 @@
          "branch":"ten"
       }
     ],
+ "greatlte":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_greatlte",
+         "target_path":"device/samsung/greatlte",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_greatlte-common",
+         "target_path":"device/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_samsung_greatlte-common",
+         "target_path":"vendor/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_samsung_greatlte",
+         "target_path":"vendor/samsung/greatlte",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_samsung_greatlte",
+         "target_path":"kernel/samsung/universal8895",
+         "branch":"ten"
+      },
+	{
+         "url":"https://github.com/SuperiorOS-Devices/samsung_hardware_greatlte",
+         "target_path":"hardware/samsung",
+         "branch":"ten"
+      }
+    ],
    "lavender":[
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_lavender",

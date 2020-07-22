@@ -282,7 +282,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/samsung_hardware_greatlte",
+         "url":"https://github.com/SuperiorOS-Devices/samsung_hardware-greatlte",
          "target_path":"hardware/samsung",
          "branch":"ten"
       }

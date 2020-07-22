@@ -16,7 +16,7 @@ function exports() {
    export SUPERIOR_OFFICIAL=true
    export KBUILD_BUILD_USER="sweeto"
    export KBUILD_BUILD_HOST="yui"
-   export DJSON=$(curl -s https://raw.githubusercontent.com/SuperiorOS/official_devices/ten/devices.json)
+   export DJSON=$(curl -s https://raw.githubusercontent.com/SuperiorOS-Devices/official_devices/ten/devices.json)
    export DEVICE_MAINTAINERS=$(jq -r --arg DEVICE "$DEVICE" '.[] | select(.codename==$DEVICE) | .maintainer_name' <<< ${DJSON}) # The maintainer of that device
    if [ -z ${DEVICE_MAINTAINERS} ];
    then

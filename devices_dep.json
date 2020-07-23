@@ -424,6 +424,23 @@
          "branch":"ten"
       }
     ],
+   "rolex":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_rolex",
+         "target_path":"device/xiaomi/rolex",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_rolex",
+         "target_path":"vendor/xiaomi",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_rolex",
+         "target_path":"kernel/xiaomi/msm8917",
+         "branch":"ten"
+      }
+    ],
    "RMX1921":[
        {
          "url":"https://github.com/SuperiorOS-devices/device_realme_RMX1921",

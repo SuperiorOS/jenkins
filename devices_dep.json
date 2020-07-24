@@ -624,6 +624,16 @@
          "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_display.git",
          "target_path":"hardware/qcom-caf/sm6150/display",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_audio.git",
+         "target_path":"hardware/qcom-caf/sm6150/audio",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_media.git",
+         "target_path":"hardware/qcom-caf/sm6150/media",
+         "branch":"ten"
       }
    ]
 }

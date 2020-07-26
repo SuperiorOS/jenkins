@@ -665,7 +665,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/trinket-devs/proton-clang.git",
+         "url":"https://github.com/SuperiorOS-Devices/proton-clang.git",
          "target_path":"prebuilts/clang/host/linux-x86/clang-11.0",
          "branch":"master"
       },

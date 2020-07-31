@@ -683,6 +683,22 @@
          "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_media.git",
          "target_path":"hardware/qcom-caf/sm6150/media",
          "branch":"ten"
+      },
+"beryllium":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_beryllium",
+         "target_path":"device/xiaomi/beryllium",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_beryllium",
+         "target_path":"vendor/xiaomi/beryllium",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_beryllium",
+         "target_path":"kernel/xiaomi/beryllium",
+         "branch":"ten"
       }
    ]
 }

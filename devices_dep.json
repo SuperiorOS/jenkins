@@ -21,6 +21,27 @@
          "branch":"ten"
       }
     ],
+   "beryllium":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_beryllium",
+         "target_path":"device/xiaomi/beryllium",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_beryllium-common",
+         "target_path":"device/xiaomi/beryllium-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_beryllium",
+         "target_path":"kernel/xiaomi/beryllium",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_beryllium",
+         "target_path":"vendor/xiaomi/beryllium",
+         "branch":"ten"
+      },
    "capricorn":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_capricorn",

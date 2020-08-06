@@ -655,12 +655,12 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_ginkgo.git",
+         "url":"https://github.com/trinket-devs/kernel_xiaomi_ginkgo.git",
          "target_path":"kernel/xiaomi/ginkgo",
-         "branch":"ten"
+         "branch":"10.0"
       },
       {
-         "url":"https://github.com/SuperiorOS-Devices/proton-clang.git",
+         "url":"https://github.com/trinket-devs/proton-clang.git",
          "target_path":"prebuilts/clang/host/linux-x86/clang-11.0",
          "branch":"master"
       },
@@ -670,7 +670,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_display.git",
+         "url":"https://github.com/trinket-devs/hardware_qcom-caf_sm8150_display.git",
          "target_path":"hardware/qcom-caf/sm6150/display",
          "branch":"ten"
       },

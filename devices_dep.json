@@ -677,7 +677,7 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/trinket-devs/kernel_xiaomi_ginkgo.git",
+         "url":"https://github.com/madmax7896/kernel_xiaomi_ginkgo.git",
          "target_path":"kernel/xiaomi/ginkgo",
          "branch":"10.0"
       },
@@ -692,17 +692,17 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/trinket-devs/hardware_qcom-caf_sm8150_display.git",
+         "url":"https://github.com/madmax7896/hardware_qcom-caf_sm6150_display.git",
          "target_path":"hardware/qcom-caf/sm6150/display",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_audio.git",
+         "url":"https://github.com/madmax7896/hardware_qcom-caf_sm6150_audio.git",
          "target_path":"hardware/qcom-caf/sm6150/audio",
          "branch":"ten"
       },
       {
-         "url":"https://github.com/PixelExperience/hardware_qcom-caf_sm8150_media.git",
+         "url":"https://github.com/madmax7896/hardware_qcom-caf_sm6150_media.git",
          "target_path":"hardware/qcom-caf/sm6150/media",
          "branch":"ten"
       }

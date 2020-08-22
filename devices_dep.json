@@ -43,38 +43,6 @@
          "branch":"ten"
       }
     ],
-   "capricorn":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_capricorn",
-         "target_path":"device/xiaomi/capricorn",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8996-common",
-         "target_path":"device/xiaomi/msm8996-common",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8996",
-         "target_path":"kernel/xiaomi/msm8996",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_msm8996",
-         "target_path":"vendor/xiaomi",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/henmadx/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
-         "target_path":"prebuilts/sd_clang",
-         "branch":"quartz"
-      },
-      {
-         "url":"https://github.com/henmadx/aarch64-elf-gcc",
-         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.3",
-         "branch":"master"
-      }
-    ],
     "daisy":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy",
@@ -112,38 +80,6 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_pantech_msm8x74",
          "target_path":"kernel/pantech/msm8x74",
          "branch":"ten"
-      }
-    ],
-   "gemini":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_gemini",
-         "target_path":"device/xiaomi/gemini",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8996-common",
-         "target_path":"device/xiaomi/msm8996-common",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8996",
-         "target_path":"kernel/xiaomi/msm8996",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_msm8996",
-         "target_path":"vendor/xiaomi",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/henmadx/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
-         "target_path":"prebuilts/sd_clang",
-         "branch":"quartz"
-      },
-      {
-         "url":"https://github.com/henmadx/aarch64-elf-gcc",
-         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.3",
-         "branch":"master"
       }
     ],
    "hlte":[
@@ -353,38 +289,6 @@
          "branch":"ten"
       }
     ],
-   "natrium":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_natrium",
-         "target_path":"device/xiaomi/natrium",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8996-common",
-         "target_path":"device/xiaomi/msm8996-common",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8996",
-         "target_path":"kernel/xiaomi/msm8996",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_msm8996",
-         "target_path":"vendor/xiaomi",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/henmadx/proprietary_vendor_qcom_sdclang-8.0_linux-x86",
-         "target_path":"prebuilts/sd_clang",
-         "branch":"quartz"
-      },
-      {
-         "url":"https://github.com/henmadx/aarch64-elf-gcc",
-         "target_path":"prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-9.3",
-         "branch":"master"
-      }
-    ],
    "oneplus3":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_oneplus_oneplus3",
@@ -475,23 +379,6 @@
          "branch":"ten"
       }
     ],
-   "RMX1921":[
-       {
-         "url":"https://github.com/SuperiorOS-devices/device_realme_RMX1921",
-         "target_path":"device/realme/RMX1921",
-         "branch":"ten"
-       },
-       {
-         "url":"https://github.com/SuperiorOS-devices/vendor_realme_RMX1921",
-         "target_path":"vendor/realme/RMX1921",
-         "branch":"ten"
-       },
-       {
-         "url":"https://github.com/SuperiorOS-devices/kernel_realme_RMX1921",
-         "target_path":"kernel/realme/RMX1921",
-         "branch":"ten"
-       }
-    ],
    "sanders":[
        {
           "url":"https://github.com/SuperiorOS-Devices/device_motorola_sanders",
@@ -545,28 +432,6 @@
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8953",
          "target_path":"kernel/xiaomi/msm8953",
-         "branch":"ten"
-      }
-    ],
-   "tulip":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tulip.git",
-         "target_path":"device/xiaomi/tulip",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_sdm660-common_tulip.git",
-         "target_path":"device/xiaomi/sdm660-common",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_sdm660.git",
-         "target_path":"kernel/xiaomi/sdm660",
-         "branch":"ten"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/android_vendor_xiaomi.git",
-         "target_path":"vendor/xiaomi",
          "branch":"ten"
       }
     ],
@@ -696,7 +561,7 @@
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_ginkgo.git",
          "target_path":"device/xiaomi/ginkgo",
-	 "branch":"ten"
+         "branch":"ten"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_ginkgo.git",

@@ -262,6 +262,72 @@
          "branch":"ten"
       }
     ],
+"dreamlte":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_dreamlte",
+         "target_path":"device/samsung/dreamlte",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_greatlte-common",
+         "target_path":"device/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_samsung_greatlte-common",
+         "target_path":"vendor/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/exynos8895/android_vendor_samsung_dreamlte",
+         "target_path":"vendor/samsung/dreamlte",
+         "branch":"lineage-17.1"
+      },
+      {
+         "url":"https://github.com/diepquynh/android_kernel_samsung_universal8895",
+         "target_path":"kernel/samsung/universal8895",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/samsung_hardware-greatlte",
+         "target_path":"hardware/samsung",
+         "branch":"ten"
+      }
+    ],
+ "dream2lte":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_dream2lte",
+         "target_path":"device/samsung/dream2lte",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_samsung_greatlte-common",
+         "target_path":"device/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_samsung_greatlte-common",
+         "target_path":"vendor/samsung/universal8895-common",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/exynos8895/android_vendor_samsung_dream2lte",
+         "target_path":"vendor/samsung/dream2lte",
+         "branch":"lineage-17.1"
+      },
+      {
+         "url":"https://github.com/diepquynh/android_kernel_samsung_universal8895",
+         "target_path":"kernel/samsung/universal8895",
+         "branch":"pie"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/samsung_hardware-greatlte",
+         "target_path":"hardware/samsung",
+         "branch":"ten"
+      }
+
+
+    ],
    "lavender":[
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_lavender",

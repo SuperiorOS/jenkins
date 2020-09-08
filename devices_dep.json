@@ -501,9 +501,9 @@
          "branch":"ten"
       },
       {
-         "url":"https://github.com/Sweeto143/vendor_xiaomi_MiuiCamera",
-         "target_path":"vendor/xiaomi/MiuiCamera",
-         "branch":"ten"
+         "url":"https://github.com/kdrag0n/proton-clang",
+         "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
+         "branch":"master"
       }
     ],
    "z2_plus":[

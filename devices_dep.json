@@ -499,11 +499,6 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_whyred",
          "target_path":"kernel/xiaomi/whyred",
          "branch":"ten"
-      },
-      {
-         "url":"https://github.com/kdrag0n/proton-clang",
-         "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
-         "branch":"master"
       }
     ],
    "z2_plus":[

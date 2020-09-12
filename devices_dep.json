@@ -284,9 +284,9 @@
          "branch":"lineage-17.1"
       },
       {
-         "url":"https://github.com/diepquynh/android_kernel_samsung_universal8895",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_samsung_greatlte",
          "target_path":"kernel/samsung/universal8895",
-         "branch":"pie"
+         "branch":"ten"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/samsung_hardware-greatlte",
@@ -316,9 +316,9 @@
          "branch":"lineage-17.1"
       },
       {
-         "url":"https://github.com/diepquynh/android_kernel_samsung_universal8895",
+         "url":"https://github.com/SuperiorOS-Devices/kernel_samsung_greatlte",
          "target_path":"kernel/samsung/universal8895",
-         "branch":"pie"
+         "branch":"ten"
       },
       {
          "url":"https://github.com/SuperiorOS-Devices/samsung_hardware-greatlte",

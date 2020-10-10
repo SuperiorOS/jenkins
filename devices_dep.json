@@ -370,6 +370,11 @@
          "url":"https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii",
          "target_path":"kernel/oneplus/avicii",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/kdrag0n/proton-clang",
+         "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
+         "branch":"master"
       }
     ],
    "oneplus3":[

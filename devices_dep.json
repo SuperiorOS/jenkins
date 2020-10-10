@@ -355,6 +355,23 @@
          "branch":"ten"
       }
     ],
+    "avicii":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_oneplus_avicii",
+         "target_path":"device/oneplus/avicii",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii",
+         "target_path":"vendor/oneplus/avicii",
+         "branch":"ten"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii",
+         "target_path":"kernel/oneplus/avicii",
+         "branch":"ten"
+      }
+    ],
    "oneplus3":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_oneplus_oneplus3",

@@ -362,6 +362,11 @@
          "branch":"ten"
       },
       {
+         "url":"https://github.com/LineageOS/android_device_oneplus_common",
+         "target_path":"device/oneplus/common",
+         "branch":"lineage-18.0"
+      },
+      {
          "url":"https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii",
          "target_path":"vendor/oneplus/avicii",
          "branch":"ten"

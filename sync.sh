@@ -18,7 +18,7 @@ then
    if [ ! -d "$repo" ];
    then
       echo -e "Initializing The Repo"
-      repo init -u https://github.com/SuperiorOS/manifest.git -b ten
+      repo init -u https://github.com/SuperiorOS/manifest.git -b eleven
       sleep 5
       echo -e "Repo has been Initialized, please sync the source"
    fi

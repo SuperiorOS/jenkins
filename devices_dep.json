@@ -1,68 +1,68 @@
 {
-  "avicii": [
-    {
-      "url": "https://github.com/SuperiorOS-Devices/device_oneplus_avicii",
-      "target_path": "device/oneplus/avicii",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/LineageOS/android_device_oneplus_common",
-      "target_path": "device/oneplus/common",
-      "branch": "lineage-18.0"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii",
-      "target_path": "vendor/oneplus/avicii",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii",
-      "target_path": "kernel/oneplus/avicii",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/kdrag0n/proton-clang",
-      "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-      "branch": "master"
-    }
-  ],
-  "tissot": [
-    {
-      "url": "https://github.com/SuperiorOS-Devices/device_xiaomi_tissot",
-      "target_path": "device/xiaomi/tissot",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/device_xiaomi_msm8953-common",
-      "target_path": "device/xiaomi/msm8953-common",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/vendor_xiaomi_tissot",
-      "target_path": "vendor/xiaomi",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8953",
-      "target_path": "kernel/xiaomi/msm8953",
-      "branch": "eleven"
-    }
-  ],
-  "whyred": [
-    {
-      "url": "https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",
-      "target_path": "device/xiaomi/whyred",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred",
-      "target_path": "vendor/xiaomi/whyred",
-      "branch": "eleven"
-    },
-    {
-      "url": "https://github.com/SuperiorOS-Devices/kernel_xiaomi_whyred",
-      "target_path": "kernel/xiaomi/whyred",
-      "branch": "eleven"
-    }
-  ]
+   "avicii":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_oneplus_avicii",
+         "target_path":"device/oneplus/avicii",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/LineageOS/android_device_oneplus_common",
+         "target_path":"device/oneplus/common",
+         "branch":"lineage-18.0"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_oneplus_avicii",
+         "target_path":"vendor/oneplus/avicii",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_oneplus_avicii",
+         "target_path":"kernel/oneplus/avicii",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/kdrag0n/proton-clang",
+         "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
+         "branch":"master"
+      }
+   ],
+   "tissot":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tissot",
+         "target_path":"device/xiaomi/tissot",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8953-common",
+         "target_path":"device/xiaomi/msm8953-common",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_tissot",
+         "target_path":"vendor/xiaomi",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8953",
+         "target_path":"kernel/xiaomi/msm8953",
+         "branch":"eleven"
+      }
+   ],
+   "whyred":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",
+         "target_path":"device/xiaomi/whyred",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_whyred",
+         "target_path":"vendor/xiaomi/whyred",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_whyred",
+         "target_path":"kernel/xiaomi/whyred",
+         "branch":"eleven"
+      }
+   ]
 }

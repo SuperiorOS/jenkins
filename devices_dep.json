@@ -24,6 +24,16 @@
          "url":"https://github.com/kdrag0n/proton-clang",
          "target_path":"prebuilts/clang/host/linux-x86/clang-proton",
          "branch":"master"
+      },
+      {
+         "url":"https://gitlab.com/AOSPA/android_vendor_google_gms",
+         "target_path":"vendor/google/gms",
+         "branch":"ruby"
+      },
+      {
+         "url":"https://gitlab.com/ghostrider-reborn/android_vendor_google_pixel",
+         "target_path":"vendor/google/pixel",
+         "branch":"ruby"
       }
    ],
    "tissot":[

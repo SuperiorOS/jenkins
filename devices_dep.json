@@ -26,14 +26,19 @@
          "branch":"master"
       },
       {
-         "url":"https://gitlab.com/AOSPA/android_vendor_google_gms",
+         "url":"https://gitlab.com/superioros/android_vendor_google_gms",
          "target_path":"vendor/google/gms",
-         "branch":"ruby"
+         "branch":"eleven"
       },
       {
-         "url":"https://gitlab.com/ghostrider-reborn/android_vendor_google_pixel",
+         "url":"https://gitlab.com/superioros/android_vendor_google_pixel",
          "target_path":"vendor/google/pixel",
-         "branch":"ruby"
+         "branch":"eleven"
+      },
+      {
+         "url":"https://gitlab.com/CryllicBuster273/packages_apps_googlecamera",
+         "target_path":"packages/apps/GoogleCamera",
+         "branch":"ten"
       }
    ],
    "tissot":[

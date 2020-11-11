@@ -39,6 +39,11 @@
          "url":"https://gitlab.com/CryllicBuster273/packages_apps_googlecamera",
          "target_path":"packages/apps/GoogleCamera",
          "branch":"ten"
+      },
+      {
+         "url":"https://github.com/kdrag0n/proton-clang",
+         "target_path":"prebuilts/clang/host/linux-x86/clang-12.0",
+         "branch":"master"
       }
    ],
    "tissot":[

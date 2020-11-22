@@ -97,4 +97,21 @@
          "branch":"eleven"
       }
    ]
+   "tulip":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tulip",
+         "target_path":"device/xiaomi/tulip",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_tulip",
+         "target_path":"vendor/xiaomi/tulip",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_tulip",
+         "target_path":"kernel/xiaomi/tulip",
+         "branch":"eleven"
+      }
+   ]
 }

@@ -135,5 +135,52 @@
 	 "target_path":"hardware/xiaomi",
          "branch":"lineage-18.0"
       }
+   ],
+    "ginkgo":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_ginkgo",
+         "target_path":"device/xiaomi/ginkgo",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_trinket-common",
+         "target_path":"device/xiaomi/trinket-common",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_ginkgo",
+         "target_path":"vendor/xiaomi/ginkgo",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_trinket-common",
+         "target_path":"vendor/xiaomi/trinket-common",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/madmax7896/android_kernel_xiaomi_ginkgo-2",
+         "target_path":"kernel/xiaomi/ginkgo",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_display",
+         "target_path":"hardware/qcom-caf/sm6125/display",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_audio",
+         "target_path":"hardware/qcom-caf/sm6125/audio",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_media",
+         "target_path":"hardware/qcom-caf/sm6125/media",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/kubersharma001/android_packages_apps_GCamGOPrebuilt",
+         "target_path":"packages/apps/GcamGOPrebuilt",
+         "branch":"master"
+      }
    ]
 }

@@ -204,5 +204,22 @@
          "target_path":"kernel/motorola/msm8998",
          "branch":"eleven"
       }
+   ],
+      "X01BD":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/device_asus_X01BD",
+         "target_path":"device/asus/X01BD",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X01BD",
+         "target_path":"vendor/asus/X01BD",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/kernel_asus_X01BD",
+         "target_path":"kernel/asus/sdm660",
+         "branch":"eleven"
+      }
    ]
 }

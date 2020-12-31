@@ -221,5 +221,22 @@
          "target_path":"kernel/asus/sdm660",
          "branch":"eleven"
       }
+   ],
+      "surya":[
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_device_xiaomi_surya",
+         "target_path":"device/xiaomi/surya",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_vendor_xiaomi_surya",
+         "target_path":"vendor/xiaomi/surya",
+         "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/SuperiorOS-Devices/android_kernel_xiaomi_surya",
+         "target_path":"kernel/xiaomi/surya",
+         "branch":"eleven"
+      }
    ]
 }

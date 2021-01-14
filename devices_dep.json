@@ -41,45 +41,6 @@
          "branch":"ten"
       }
    ],
-   "daisy":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_daisy",
-         "target_path":"device/xiaomi/daisy",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_daisy",
-         "target_path":"vendor/xiaomi",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_daisy",
-         "target_path":"kernel/xiaomi/daisy",
-         "branch":"eleven"
-      }
-   ],
-   "tissot":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_tissot",
-         "target_path":"device/xiaomi/tissot",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_msm8953-common",
-         "target_path":"device/xiaomi/msm8953-common",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_tissot",
-         "target_path":"vendor/xiaomi",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_xiaomi_msm8953",
-         "target_path":"kernel/xiaomi/msm8953",
-         "branch":"eleven"
-      }
-   ],
    "whyred":[
       {
          "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_whyred",
@@ -136,53 +97,6 @@
          "branch":"lineage-18.0"
       }
    ],
-    "ginkgo":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_ginkgo",
-         "target_path":"device/xiaomi/ginkgo",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_xiaomi_trinket-common",
-         "target_path":"device/xiaomi/trinket-common",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_ginkgo",
-         "target_path":"vendor/xiaomi/ginkgo",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_xiaomi_trinket-common",
-         "target_path":"vendor/xiaomi/trinket-common",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/madmax7896/android_kernel_xiaomi_ginkgo-2",
-         "target_path":"kernel/xiaomi/ginkgo",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_display",
-         "target_path":"hardware/qcom-caf/sm6125/display",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_audio",
-         "target_path":"hardware/qcom-caf/sm6125/audio",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/xiaomi-sm6125/hardware_qcom-caf_sm8150_media",
-         "target_path":"hardware/qcom-caf/sm6125/media",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/kubersharma001/android_packages_apps_GCamGOPrebuilt",
-         "target_path":"packages/apps/GcamGOPrebuilt",
-         "branch":"master"
-      }
-   ],
       "payton":[
       {
           "url":"https://github.com/SuperiorOS-Devices/device_motorola_payton",
@@ -202,23 +116,6 @@
       {
          "url":"https://github.com/SuperiorOS-Devices/kernel_motorola_payton.git",
          "target_path":"kernel/motorola/msm8998",
-         "branch":"eleven"
-      }
-   ],
-      "X01BD":[
-      {
-         "url":"https://github.com/SuperiorOS-Devices/device_asus_X01BD",
-         "target_path":"device/asus/X01BD",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/vendor_asus_X01BD",
-         "target_path":"vendor/asus/X01BD",
-         "branch":"eleven"
-      },
-      {
-         "url":"https://github.com/SuperiorOS-Devices/kernel_asus_X01BD",
-         "target_path":"kernel/asus/sdm660",
          "branch":"eleven"
       }
    ],

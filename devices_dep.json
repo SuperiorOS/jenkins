@@ -134,6 +134,11 @@
          "url":"https://github.com/SuperiorOS-Devices/android_kernel_xiaomi_surya",
          "target_path":"kernel/xiaomi/surya",
          "branch":"eleven"
+      },
+      {
+         "url":"https://github.com/TheMarc43/vendor_ANXCamera",
+         "target_path":"vendor/ANXCamera",
+         "branch":"11.0"
       }
    ]
 }

@@ -11,7 +11,7 @@ for project in ${PROJECTS}
 do
     cd $project
     echo $project
-    git push --force -o skip-validation $(git remote -v | head -1 | awk '{print $2}' | sed -e 's/https:\/\/github.com\/SuperiorOS/ssh:\/\/Sweeto143@gerrit.superioros.org:29418\/SuperiorOS/') HEAD:refs/heads/eleven
+    git push --force -o skip-validation $(git remote -v | head -1 | awk '{print $2}' | sed -e 's/https:\/\/github.com\/SuperiorOS/ssh:\/\/Darkstar085@gerrit.superioros.org:29418\/SuperiorOS/') HEAD:refs/heads/eleven
     cd -
 done
 cd $cwd

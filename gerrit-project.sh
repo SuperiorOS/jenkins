@@ -7,7 +7,7 @@
 # If you're pushing from the server where Gerrit is hosted, let it be as it is
 # Else point to the Gerrit server, the IP, or probably review/gerrit.domain.tld
 # If your gerrit username is not the user you're running this script as, then prefix this with gerritusername@
-GERRIT_HOST="Sweeto143@gerrit.superioros.org"
+GERRIT_HOST="Darkstar085@gerrit.superioros.org"
 
 # The port on which Gerrit is running [the port you filled in the the sshd listen address while setting up]
 GERRIT_PORT="29418"
